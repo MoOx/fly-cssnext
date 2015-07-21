@@ -1,0 +1,40 @@
+{
+  "name": "fly-cssnext",
+  "version": "0.0.0",
+  "description": "Cssnext plugin for Fly.",
+  "license": "MIT",
+  "repository": "https://github.com/drkraken/fly-cssnext",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "fly",
+    "cssnext"
+  ],
+  "scripts": {
+    "lint": "eslint *.js",
+    "setup": "npm i && npm test &&",
+    "test": "npm run lint && tape test/*.js | tspec ",
+    "build": "echo No build task specified.",
+    "deploy": "npm run test && git push origin master && npm publish",
+    "test-ci": "node --harmony --harmony_arrow_functions ./node_modules/tape/bin/tape test/*.js"
+  },
+  "author": {
+    "name": "drkraken",
+    "email": "kuchuklehjs@gmail.com",
+    "url": "http://github.com/drkraken"
+  },
+  "dependencies": {
+    "cssnext": "^1.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^0.21.2",
+    "tap-spec": "^4.0.2",
+    "tape": "*"
+  },
+  "engines": {
+    "iojs": ">= 1.0.0",
+    "node": ">= 0.11.0"
+  }
+}
