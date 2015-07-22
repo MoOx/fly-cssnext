@@ -1,10 +1,10 @@
 <div align="center">
   <a href="http://github.com/flyjs/fly">
-    <img width=200px  src="https://cloud.githubusercontent.com/assets/8317250/8430194/35c6043a-1f6a-11e5-8cbd-af6cc86baa84.png">
+    <img width=200px  src="https://cloud.githubusercontent.com/assets/8317250/8733685/0be81080-2c40-11e5-98d2-c634f076ccd7.png">
   </a>
 </div>
 
-> [cssnext](https://github.com/drkraken/fly-cssnext) plugin for _[Fly][fly]_.
+> [cssnext](https://github.com/cssnext/cssnext) plugin for _[Fly][fly]_.
 
 [![][fly-badge]][fly]
 [![npm package][npm-ver-link]][releases]
@@ -28,7 +28,7 @@ export default function* () {
   yield this
     .source("*.css")
     .cssnext()
-    .target('dist')
+    .target("dist")
 }
 ```
 
