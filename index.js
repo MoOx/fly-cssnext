@@ -1,7 +1,5 @@
 module.exports = function () {
-  this.filter("cssnext", (source, options) => {
-    try {
-      return require("cssnext")(source, options)
-     } catch (e) { throw e }
+  this.filter("cssnext", (data, options) => {
+    return require("cssnext")(data.toString(), options)
   })
 }
