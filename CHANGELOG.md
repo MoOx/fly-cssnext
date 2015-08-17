@@ -11,3 +11,7 @@
 ### v0.0.0
 
  * fly-cssnext initial commit.
+
+### v1.0.0
+
+ * convert raw data to string

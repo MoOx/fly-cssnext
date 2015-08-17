@@ -1,6 +1,6 @@
 {
   "name": "fly-cssnext",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Cssnext plugin for Fly.",
   "license": "MIT",
   "repository": "https://github.com/drkraken/fly-cssnext",
