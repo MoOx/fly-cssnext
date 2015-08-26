@@ -34,18 +34,18 @@ export default function* () {
 
 # License
 
-[MIT][mit] © [drkraken][author] et [al][contributors]
+[MIT][mit] © [The Fly Team][author] et [al][contributors]
 
 
 [mit]:          http://opensource.org/licenses/MIT
-[author]:       http://github.com/drkraken
-[contributors]: https://github.com/drkraken/fly-cssnext/graphs/contributors
-[releases]:     https://github.com/drkraken/fly-cssnext/releases
+[author]:       http://github.com/flyjs
+[contributors]: https://github.com/cssnext/fly-cssnext/graphs/contributors
+[releases]:     https://github.com/cssnext/fly-cssnext/releases
 [fly]:          https://www.github.com/flyjs/fly
 [fly-badge]:    https://img.shields.io/badge/fly-JS-05B3E1.svg?style=flat-square
 [mit-badge]:    https://img.shields.io/badge/license-MIT-444444.svg?style=flat-square
 [npm-pkg-link]: https://www.npmjs.org/package/fly-cssnext
 [npm-ver-link]: https://img.shields.io/npm/v/fly-cssnext.svg?style=flat-square
 [dl-badge]:     http://img.shields.io/npm/dm/fly-cssnext.svg?style=flat-square
-[travis-link]:  https://travis-ci.org/drkraken/fly-cssnext
-[travis-badge]: http://img.shields.io/travis/drkraken/fly-cssnext.svg?style=flat-square
+[travis-link]:  https://travis-ci.org/cssnext/fly-cssnext
+[travis-badge]: http://img.shields.io/travis/cssnext/fly-cssnext.svg?style=flat-square
