@@ -10,21 +10,30 @@
   ],
   "keywords": [
     "fly",
-    "cssnext"
+    "cssnext",
+    "fly-plugin",
+    "css",
+    "postcss"
   ],
   "scripts": {
     "lint": "eslint *.js",
     "setup": "npm i && npm test &&",
     "test": "npm run lint && tape test/*.js | tspec ",
-    "build": "echo No build task specified.",
     "deploy": "npm run test && git push origin master && npm publish",
     "test-ci": "node --harmony --harmony_arrow_functions ./node_modules/tape/bin/tape test/*.js"
   },
-  "author": {
-    "name": "drkraken",
-    "email": "kuchuklehjs@gmail.com",
-    "url": "http://github.com/drkraken"
-  },
+  "authors": [
+    {
+      "name": "drkraken",
+      "email": "kuchuklehjs@gmail.com",
+      "url": "http://github.com/drkraken"
+    },
+    {
+      "name": "Jorge Bucaran",
+      "email": "jbucaran@me.com",
+      "url": "http://github.com/bucaran"
+    }
+  ],
   "dependencies": {
     "cssnext": "^1.8.1"
   },
