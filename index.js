@@ -1,4 +1,5 @@
 const cssnext = require("cssnext")
+
 module.exports = function () {
   this.filter("cssnext", (data, options) => {
     const result = cssnext(data.toString(), options)
